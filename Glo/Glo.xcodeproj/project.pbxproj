@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F43922A29E9BCE600FA4145 /* GloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43922929E9BCE600FA4145 /* GloApp.swift */; };
+		3F43922C29E9BCE600FA4145 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43922B29E9BCE600FA4145 /* ContentView.swift */; };
+		3F43922E29E9BCE700FA4145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F43922D29E9BCE700FA4145 /* Assets.xcassets */; };
+		3F43923229E9BCE700FA4145 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F43923129E9BCE700FA4145 /* Preview Assets.xcassets */; };
+		3F43923C29E9BCE700FA4145 /* GloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43923B29E9BCE700FA4145 /* GloTests.swift */; };
+		3F43924629E9BCE700FA4145 /* GloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43924529E9BCE700FA4145 /* GloUITests.swift */; };
+		3F43924829E9BCE700FA4145 /* GloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43924729E9BCE700FA4145 /* GloUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F43923829E9BCE700FA4145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F43921E29E9BCE600FA4145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F43922529E9BCE600FA4145;
+			remoteInfo = Glo;
+		};
+		3F43924229E9BCE700FA4145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F43921E29E9BCE600FA4145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F43922529E9BCE600FA4145;
+			remoteInfo = Glo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F43922629E9BCE600FA4145 /* Glo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F43922929E9BCE600FA4145 /* GloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloApp.swift; sourceTree = "<group>"; };
+		3F43922B29E9BCE600FA4145 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F43922D29E9BCE700FA4145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F43922F29E9BCE700FA4145 /* Glo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Glo.entitlements; sourceTree = "<group>"; };
+		3F43923129E9BCE700FA4145 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F43923729E9BCE700FA4145 /* GloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F43923B29E9BCE700FA4145 /* GloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloTests.swift; sourceTree = "<group>"; };
+		3F43924129E9BCE700FA4145 /* GloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F43924529E9BCE700FA4145 /* GloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloUITests.swift; sourceTree = "<group>"; };
+		3F43924729E9BCE700FA4145 /* GloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F43922329E9BCE600FA4145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F43923429E9BCE700FA4145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F43923E29E9BCE700FA4145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F43921D29E9BCE600FA4145 = {
+			isa = PBXGroup;
+			children = (
+				3F43922829E9BCE600FA4145 /* Glo */,
+				3F43923A29E9BCE700FA4145 /* GloTests */,
+				3F43924429E9BCE700FA4145 /* GloUITests */,
+				3F43922729E9BCE600FA4145 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F43922729E9BCE600FA4145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F43922629E9BCE600FA4145 /* Glo.app */,
+				3F43923729E9BCE700FA4145 /* GloTests.xctest */,
+				3F43924129E9BCE700FA4145 /* GloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F43922829E9BCE600FA4145 /* Glo */ = {
+			isa = PBXGroup;
+			children = (
+				3F43922929E9BCE600FA4145 /* GloApp.swift */,
+				3F43922B29E9BCE600FA4145 /* ContentView.swift */,
+				3F43922D29E9BCE700FA4145 /* Assets.xcassets */,
+				3F43922F29E9BCE700FA4145 /* Glo.entitlements */,
+				3F43923029E9BCE700FA4145 /* Preview Content */,
+			);
+			path = Glo;
+			sourceTree = "<group>";
+		};
+		3F43923029E9BCE700FA4145 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F43923129E9BCE700FA4145 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F43923A29E9BCE700FA4145 /* GloTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F43923B29E9BCE700FA4145 /* GloTests.swift */,
+			);
+			path = GloTests;
+			sourceTree = "<group>";
+		};
+		3F43924429E9BCE700FA4145 /* GloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F43924529E9BCE700FA4145 /* GloUITests.swift */,
+				3F43924729E9BCE700FA4145 /* GloUITestsLaunchTests.swift */,
+			);
+			path = GloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F43922529E9BCE600FA4145 /* Glo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F43924B29E9BCE700FA4145 /* Build configuration list for PBXNativeTarget "Glo" */;
+			buildPhases = (
+				3F43922229E9BCE600FA4145 /* Sources */,
+				3F43922329E9BCE600FA4145 /* Frameworks */,
+				3F43922429E9BCE600FA4145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glo;
+			productName = Glo;
+			productReference = 3F43922629E9BCE600FA4145 /* Glo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F43923629E9BCE700FA4145 /* GloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F43924E29E9BCE700FA4145 /* Build configuration list for PBXNativeTarget "GloTests" */;
+			buildPhases = (
+				3F43923329E9BCE700FA4145 /* Sources */,
+				3F43923429E9BCE700FA4145 /* Frameworks */,
+				3F43923529E9BCE700FA4145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F43923929E9BCE700FA4145 /* PBXTargetDependency */,
+			);
+			name = GloTests;
+			productName = GloTests;
+			productReference = 3F43923729E9BCE700FA4145 /* GloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F43924029E9BCE700FA4145 /* GloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F43925129E9BCE700FA4145 /* Build configuration list for PBXNativeTarget "GloUITests" */;
+			buildPhases = (
+				3F43923D29E9BCE700FA4145 /* Sources */,
+				3F43923E29E9BCE700FA4145 /* Frameworks */,
+				3F43923F29E9BCE700FA4145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F43924329E9BCE700FA4145 /* PBXTargetDependency */,
+			);
+			name = GloUITests;
+			productName = GloUITests;
+			productReference = 3F43924129E9BCE700FA4145 /* GloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F43921E29E9BCE600FA4145 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3F43922529E9BCE600FA4145 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					3F43923629E9BCE700FA4145 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3F43922529E9BCE600FA4145;
+					};
+					3F43924029E9BCE700FA4145 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3F43922529E9BCE600FA4145;
+					};
+				};
+			};
+			buildConfigurationList = 3F43922129E9BCE600FA4145 /* Build configuration list for PBXProject "Glo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F43921D29E9BCE600FA4145;
+			productRefGroup = 3F43922729E9BCE600FA4145 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F43922529E9BCE600FA4145 /* Glo */,
+				3F43923629E9BCE700FA4145 /* GloTests */,
+				3F43924029E9BCE700FA4145 /* GloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F43922429E9BCE600FA4145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F43923229E9BCE700FA4145 /* Preview Assets.xcassets in Resources */,
+				3F43922E29E9BCE700FA4145 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F43923529E9BCE700FA4145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F43923F29E9BCE700FA4145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F43922229E9BCE600FA4145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F43922C29E9BCE600FA4145 /* ContentView.swift in Sources */,
+				3F43922A29E9BCE600FA4145 /* GloApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F43923329E9BCE700FA4145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F43923C29E9BCE700FA4145 /* GloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F43923D29E9BCE700FA4145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F43924629E9BCE700FA4145 /* GloUITests.swift in Sources */,
+				3F43924829E9BCE700FA4145 /* GloUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F43923929E9BCE700FA4145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F43922529E9BCE600FA4145 /* Glo */;
+			targetProxy = 3F43923829E9BCE700FA4145 /* PBXContainerItemProxy */;
+		};
+		3F43924329E9BCE700FA4145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F43922529E9BCE600FA4145 /* Glo */;
+			targetProxy = 3F43924229E9BCE700FA4145 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F43924929E9BCE700FA4145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F43924A29E9BCE700FA4145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3F43924C29E9BCE700FA4145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Glo/Glo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Glo/Preview Content\"";
+				DEVELOPMENT_TEAM = 55MSG8HPP5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = newability.apps.Glo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F43924D29E9BCE700FA4145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Glo/Glo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Glo/Preview Content\"";
+				DEVELOPMENT_TEAM = 55MSG8HPP5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = newability.apps.Glo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F43924F29E9BCE700FA4145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55MSG8HPP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = newability.apps.GloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Glo";
+			};
+			name = Debug;
+		};
+		3F43925029E9BCE700FA4145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55MSG8HPP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = newability.apps.GloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Glo";
+			};
+			name = Release;
+		};
+		3F43925229E9BCE700FA4145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55MSG8HPP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = newability.apps.GloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Glo;
+			};
+			name = Debug;
+		};
+		3F43925329E9BCE700FA4145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55MSG8HPP5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = newability.apps.GloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Glo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F43922129E9BCE600FA4145 /* Build configuration list for PBXProject "Glo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F43924929E9BCE700FA4145 /* Debug */,
+				3F43924A29E9BCE700FA4145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F43924B29E9BCE700FA4145 /* Build configuration list for PBXNativeTarget "Glo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F43924C29E9BCE700FA4145 /* Debug */,
+				3F43924D29E9BCE700FA4145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F43924E29E9BCE700FA4145 /* Build configuration list for PBXNativeTarget "GloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F43924F29E9BCE700FA4145 /* Debug */,
+				3F43925029E9BCE700FA4145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F43925129E9BCE700FA4145 /* Build configuration list for PBXNativeTarget "GloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F43925229E9BCE700FA4145 /* Debug */,
+				3F43925329E9BCE700FA4145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F43921E29E9BCE600FA4145 /* Project object */;
+}
