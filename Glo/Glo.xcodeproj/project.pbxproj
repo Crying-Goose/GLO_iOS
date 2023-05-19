@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3F43922A29E9BCE600FA4145 /* GloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43922929E9BCE600FA4145 /* GloApp.swift */; };
-		3F43922C29E9BCE600FA4145 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43922B29E9BCE600FA4145 /* ContentView.swift */; };
 		3F43922E29E9BCE700FA4145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F43922D29E9BCE700FA4145 /* Assets.xcassets */; };
 		3F43923229E9BCE700FA4145 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F43923129E9BCE700FA4145 /* Preview Assets.xcassets */; };
 		3F43923C29E9BCE700FA4145 /* GloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43923B29E9BCE700FA4145 /* GloTests.swift */; };
 		3F43924629E9BCE700FA4145 /* GloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43924529E9BCE700FA4145 /* GloUITests.swift */; };
 		3F43924829E9BCE700FA4145 /* GloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43924729E9BCE700FA4145 /* GloUITestsLaunchTests.swift */; };
+		3F8A19F52A173B2600884C84 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A19F42A173B2600884C84 /* LoginView.swift */; };
+		3F8A19F72A173B3D00884C84 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A19F62A173B3D00884C84 /* MainView.swift */; };
+		3F8A19F92A173B5900884C84 /* WritingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A19F82A173B5900884C84 /* WritingView.swift */; };
+		3F8A19FB2A173D0300884C84 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A19FA2A173D0300884C84 /* ArticleView.swift */; };
+		3F8A19FD2A173D1500884C84 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A19FC2A173D1500884C84 /* SearchView.swift */; };
+		3F8A19FF2A173D4D00884C84 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A19FE2A173D4D00884C84 /* ProfileView.swift */; };
+		3F8A1A042A173EC400884C84 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 3F8A1A032A173EC400884C84 /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		3F43922629E9BCE600FA4145 /* Glo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F43922929E9BCE600FA4145 /* GloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloApp.swift; sourceTree = "<group>"; };
-		3F43922B29E9BCE600FA4145 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F43922D29E9BCE700FA4145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F43922F29E9BCE700FA4145 /* Glo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Glo.entitlements; sourceTree = "<group>"; };
 		3F43923129E9BCE700FA4145 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +50,12 @@
 		3F43924129E9BCE700FA4145 /* GloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F43924529E9BCE700FA4145 /* GloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloUITests.swift; sourceTree = "<group>"; };
 		3F43924729E9BCE700FA4145 /* GloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F8A19F42A173B2600884C84 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3F8A19F62A173B3D00884C84 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3F8A19F82A173B5900884C84 /* WritingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingView.swift; sourceTree = "<group>"; };
+		3F8A19FA2A173D0300884C84 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		3F8A19FC2A173D1500884C84 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		3F8A19FE2A173D4D00884C84 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8A1A042A173EC400884C84 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +107,11 @@
 		3F43922829E9BCE600FA4145 /* Glo */ = {
 			isa = PBXGroup;
 			children = (
+				3F936D852A1739CD005B3CED /* Redusers */,
+				3F936D872A173A1A005B3CED /* Service */,
+				3F936D842A1739C2005B3CED /* Views */,
+				3F936D862A1739E3005B3CED /* Repositories */,
 				3F43922929E9BCE600FA4145 /* GloApp.swift */,
-				3F43922B29E9BCE600FA4145 /* ContentView.swift */,
 				3F43922D29E9BCE700FA4145 /* Assets.xcassets */,
 				3F43922F29E9BCE700FA4145 /* Glo.entitlements */,
 				3F43923029E9BCE700FA4145 /* Preview Content */,
@@ -129,6 +144,40 @@
 			path = GloUITests;
 			sourceTree = "<group>";
 		};
+		3F936D842A1739C2005B3CED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A19FA2A173D0300884C84 /* ArticleView.swift */,
+				3F8A19F42A173B2600884C84 /* LoginView.swift */,
+				3F8A19F62A173B3D00884C84 /* MainView.swift */,
+				3F8A19FE2A173D4D00884C84 /* ProfileView.swift */,
+				3F8A19FC2A173D1500884C84 /* SearchView.swift */,
+				3F8A19F82A173B5900884C84 /* WritingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F936D852A1739CD005B3CED /* Redusers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Redusers;
+			sourceTree = "<group>";
+		};
+		3F936D862A1739E3005B3CED /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		3F936D872A173A1A005B3CED /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +194,9 @@
 			dependencies = (
 			);
 			name = Glo;
+			packageProductDependencies = (
+				3F8A1A032A173EC400884C84 /* ComposableArchitecture */,
+			);
 			productName = Glo;
 			productReference = 3F43922629E9BCE600FA4145 /* Glo.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +269,9 @@
 				Base,
 			);
 			mainGroup = 3F43921D29E9BCE600FA4145;
+			packageReferences = (
+				3F8A1A022A173EC400884C84 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 3F43922729E9BCE600FA4145 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F43922C29E9BCE600FA4145 /* ContentView.swift in Sources */,
+				3F8A19FF2A173D4D00884C84 /* ProfileView.swift in Sources */,
+				3F8A19F52A173B2600884C84 /* LoginView.swift in Sources */,
+				3F8A19FB2A173D0300884C84 /* ArticleView.swift in Sources */,
+				3F8A19F72A173B3D00884C84 /* MainView.swift in Sources */,
+				3F8A19FD2A173D1500884C84 /* SearchView.swift in Sources */,
+				3F8A19F92A173B5900884C84 /* WritingView.swift in Sources */,
 				3F43922A29E9BCE600FA4145 /* GloApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +479,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GLO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -430,15 +491,17 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = newability.apps.Glo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,6 +521,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GLO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -469,15 +533,17 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = newability.apps.Glo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -614,6 +680,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F8A1A022A173EC400884C84 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.53.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F8A1A032A173EC400884C84 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F8A1A022A173EC400884C84 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3F43921E29E9BCE600FA4145 /* Project object */;
 }
