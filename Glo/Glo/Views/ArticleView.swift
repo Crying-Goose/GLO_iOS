@@ -96,6 +96,7 @@ struct ArticleItemView: View {
                     .frame(height: kButtonHeight)
                     
                     IconCircleView(size: 50)
+                        .padding(.bottom, 16.0)
                 }
                 .frame(width: 60)
             }
