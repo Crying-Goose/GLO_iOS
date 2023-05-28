@@ -20,6 +20,8 @@
 		3F8A19FD2A173D1500884C84 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A19FC2A173D1500884C84 /* SearchView.swift */; };
 		3F8A19FF2A173D4D00884C84 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A19FE2A173D4D00884C84 /* ProfileView.swift */; };
 		3F8A1A042A173EC400884C84 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 3F8A1A032A173EC400884C84 /* ComposableArchitecture */; };
+		3F8A1A062A17583B00884C84 /* MainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1A052A17583B00884C84 /* MainService.swift */; };
+		3F8A1A082A17584700884C84 /* MainReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A1A072A17584700884C84 /* MainReducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		3F8A19FA2A173D0300884C84 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
 		3F8A19FC2A173D1500884C84 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		3F8A19FE2A173D4D00884C84 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3F8A1A052A17583B00884C84 /* MainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainService.swift; sourceTree = "<group>"; };
+		3F8A1A072A17584700884C84 /* MainReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainReducer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +111,7 @@
 		3F43922829E9BCE600FA4145 /* Glo */ = {
 			isa = PBXGroup;
 			children = (
-				3F936D852A1739CD005B3CED /* Redusers */,
+				3F936D852A1739CD005B3CED /* Reducers */,
 				3F936D872A173A1A005B3CED /* Service */,
 				3F936D842A1739C2005B3CED /* Views */,
 				3F936D862A1739E3005B3CED /* Repositories */,
@@ -157,11 +161,12 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		3F936D852A1739CD005B3CED /* Redusers */ = {
+		3F936D852A1739CD005B3CED /* Reducers */ = {
 			isa = PBXGroup;
 			children = (
+				3F8A1A072A17584700884C84 /* MainReducer.swift */,
 			);
-			path = Redusers;
+			path = Reducers;
 			sourceTree = "<group>";
 		};
 		3F936D862A1739E3005B3CED /* Repositories */ = {
@@ -174,6 +179,7 @@
 		3F936D872A173A1A005B3CED /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				3F8A1A052A17583B00884C84 /* MainService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -315,7 +321,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F8A19FF2A173D4D00884C84 /* ProfileView.swift in Sources */,
+				3F8A1A082A17584700884C84 /* MainReducer.swift in Sources */,
 				3F8A19F52A173B2600884C84 /* LoginView.swift in Sources */,
+				3F8A1A062A17583B00884C84 /* MainService.swift in Sources */,
 				3F8A19FB2A173D0300884C84 /* ArticleView.swift in Sources */,
 				3F8A19F72A173B3D00884C84 /* MainView.swift in Sources */,
 				3F8A19FD2A173D1500884C84 /* SearchView.swift in Sources */,
