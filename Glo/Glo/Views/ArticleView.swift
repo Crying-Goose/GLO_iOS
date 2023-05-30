@@ -69,7 +69,8 @@ struct ArticleItemView: View {
                         }) {
                             Image("icon_share")
                         }
-                        Text("")
+                        Text("공유")
+                            .font(.system(size: 13, weight: .bold))
                     }
                     .frame(height: kButtonHeight)
                     
