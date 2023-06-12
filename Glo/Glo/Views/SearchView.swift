@@ -20,7 +20,7 @@ struct SearchView: View {
             
             VStack {
                 SearchBar(text: $searchText)
-                    .padding(EdgeInsets(top: 10, leading: 0, bottom: 10, trailing: 0))
+                    .padding([.top, .bottom], 10)
                 
                 List {
                     Section {
@@ -73,10 +73,10 @@ struct SearchBar: View {
                     EmptyView()
                 }
             }
-            .padding(EdgeInsets(top: 4, leading: 8, bottom: 4, trailing: 8))
+            .padding([.all], 8)
             .foregroundColor(.secondary)
             .background(Color(.secondarySystemBackground))
-            .cornerRadius(10.0)
+            .cornerRadius(10)
         }
         .padding(.horizontal)
     }

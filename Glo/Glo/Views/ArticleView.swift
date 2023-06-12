@@ -95,9 +95,13 @@ struct ArticleItemView: View {
                             .font(.system(size: 13, weight: .bold))
                     }
                     .frame(height: kButtonHeight)
-                    
-                    IconCircleView(size: 50)
-                        .padding(.bottom, 16.0)
+                    NavigationLink {
+                        ProfileView()
+                    } label: {
+                        IconCircleView(size: 50)
+                            .padding(.bottom, 16.0)
+                    }
+
                 }
                 .frame(width: 60)
             }

@@ -24,7 +24,7 @@ struct MainView: View {
                     Text("검색")
                 }
             
-            WritingView()
+            WriteView()
                 .tabItem {
                     Image("icon_addcircle")
                         .renderingMode(.template)

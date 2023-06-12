@@ -12,8 +12,6 @@ struct MainReducer: ReducerProtocol {
     
     struct State: Equatable {
         var currentTab: TabSubject
-        
-        
     }
     
     enum Action: Equatable {
@@ -29,8 +27,6 @@ struct MainReducer: ReducerProtocol {
         case notification = 3
         case profile = 4
     }
-    
-    
     
     func reduce(into state: inout State, action: Action) -> ComposableArchitecture.EffectTask<Action> {
         //
